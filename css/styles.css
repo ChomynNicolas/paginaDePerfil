@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: cursive;
+  
+  
+}
+.nombre{
+  font-size: 20px
+}
+
+.cabecera{
+  background-color: rgb(3, 211, 211);
+  height: 60px;
+  position: relative;
+
+}
+.cuerpo{
+  padding: 30px 20px 20px 20px;
+  border: 2px solid rgb(204, 204, 204);
+}
+.usuario{
+  width: 60px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 50%;
+}
+.icono{
+  width: 12px;
+  margin-right: 5px;
+}
+.ubicacion{
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  gap: 5px;
+}
+.editarPerfil{
+  margin: 10px auto;
+}
+nav{
+  background-color: rgb(0, 0, 0);
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.linkeadores{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 10px;
+
+}
+.divisionBoton{
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: rgb(145, 145, 145);
+}
+li:hover{
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.active{
+  color: rgb(255, 255, 255);
+}
+
+.perfil{
+  color: rgb(255, 255, 255);
+}
+main{
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+.seccionDerecha{
+  flex: 3;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.seccionIzquierda{
+  flex: 1;
+  margin-right: 10px;
+}
+
+.educacionCabeza{
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: rgb(65, 63, 63);
+  color: white;
+}
+.educacionCuerpo{
+  border: 2px solid rgb(204, 204, 204);
+  padding: 10px;
+
+}
+.marronClaro{
+  color: rgb(168, 165, 165);
+  margin: 7px auto;
+}
+
+.conexionCabeza, .miConexionCabeza{
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  background-color: rgb(65, 63, 63);
+  color: white;
+}
+.flexusuario{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.conexionCuerpo, .miConexionCuerpo{
+  padding: 5px 10px; 
+  border: 2px solid rgb(204, 204, 204);
+}
+.usuarioChico{
+  width: 30px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 50%;
+}
+.icono2{
+  width: 20px;
+}
+.notificacion{
+  max-height: 30px;
+  width: 20px;
+  display: flex;
+  background-color: rgb(185, 185, 185);
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.miConexionCabeza{
+  margin-top: 20px;
+}
+
+.flexusuarioConexion{
+  display: flex;
+  padding-bottom: 10px;
+  gap: 10px;
+  align-items: center;
+}
+.miConexionPie{
+  border: 1px solid rgb(204, 204, 204);
+  border-top: 0;
+  padding: 5px 10px;
+
+}
+.notificacion2{
+  display: flex;
+  max-height: 30px;
+  width: 40px;
+  background-color: rgb(185, 185, 185);
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.boton{
+  background-color: rgb(3, 226, 226);
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+.aceptarCancelar{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+}
